@@ -8,11 +8,12 @@
     "build": "cp -r html/bower_components/font-awesome/fonts/ src/assets/fonts/ && cp -r html/bower_components/font-awesome/fonts/ src/assets/bower_components/font-awesome/fonts/"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Dustin Graves",
+  "license": "MIT",
   "dependencies": {
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
+    "firebase-tools": "^6.1.0",
     "gulp-sass": "^4.0.1",
     "gulp-watch": "^5.0.1"
   },
