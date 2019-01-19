@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html title=page.title %}
+
+<body>
+    <div id="preloader">
+        <div id="preloader-inner"></div>
+    </div><!--/preloader-->
+  {% include header.html %}
+    {% include components/hero-particle.html title1="Pegasys" title2="Technologies" description="This is us" buttonText="Some Stuff" %}
+
+    {{ content }}
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+</html>
+

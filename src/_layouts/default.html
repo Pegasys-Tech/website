@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html title=page.title %}
+
+<body>
+    <div id="preloader">
+        <div id="preloader-inner"></div>
+    </div><!--/preloader-->
+  {% include header.html %}
+    <div class=" pt90 pb60">
+        <div class="container">
+            {{ content }}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+</html>
+

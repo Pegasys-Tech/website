@@ -1,0 +1,15 @@
+- name: IT Consulting
+  description:
+  image:
+- name: Project Management
+  description:
+  image:
+- name: IT Outsourcing
+  description:
+  image:
+- name: Managed IT
+  description:
+  image:
+- name: Backup & Disaster Recover
+  description:
+  image:
