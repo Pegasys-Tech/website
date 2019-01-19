@@ -12,6 +12,6 @@ title: Home
 {% include components/6-blurb-sections.html %}
 
 
-{% include components/dark-section-cta.html title="Title text" description="change me" url="/contact" buttonText="click me" image="image.png"  %}
+{% include components/dark-section-cta.html title="Title text" description="change me" url="/contact" buttonText="click me" image="/assets/images/browser-set.png"  %}
 
 {% include components/services-snippet.html %}
